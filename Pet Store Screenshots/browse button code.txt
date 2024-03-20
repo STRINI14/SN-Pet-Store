@@ -1,0 +1,6 @@
+ OpenFileDialog opf = new OpenFileDialog();
+            opf.Filter = "(*.jpg;*.png;*.gif)|*.jpg;*.png;*.gif";
+            if (opf.ShowDialog() == DialogResult.OK)
+            {
+                pbDogPet.Image = Image.FromFile(opf.FileName);
+            }

@@ -1,0 +1,1417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0A046F0E-9641-4A18-8441-3B489D53F8A0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SN_Pet_Store</RootNamespace>
+    <AssemblyName>SN Pet Store</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bird Acc Sale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bird Acc Sale.Designer.cs">
+      <DependentUpon>Bird Acc Sale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bird Acc Stock Data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bird Acc Stock Data.Designer.cs">
+      <DependentUpon>Bird Acc Stock Data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bird Acc Stock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bird Acc Stock.Designer.cs">
+      <DependentUpon>Bird Acc Stock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bird Food Sale Data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bird Food Sale Data.Designer.cs">
+      <DependentUpon>Bird Food Sale Data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bird Food Sale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bird Food Sale.Designer.cs">
+      <DependentUpon>Bird Food Sale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bird Food Stock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bird Food Stock.Designer.cs">
+      <DependentUpon>Bird Food Stock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bird Pet Care Sale Data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bird Pet Care Sale Data.Designer.cs">
+      <DependentUpon>Bird Pet Care Sale Data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bird Pet Care Sale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bird Pet Care Sale.Designer.cs">
+      <DependentUpon>Bird Pet Care Sale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bird Pet Care.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bird Pet Care.Designer.cs">
+      <DependentUpon>Bird Pet Care.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bird Pet Sale Data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bird Pet Sale Data.Designer.cs">
+      <DependentUpon>Bird Pet Sale Data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bird Pet Sale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bird Pet Sale.Designer.cs">
+      <DependentUpon>Bird Pet Sale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bird Pet Stock Data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bird Pet Stock Data.Designer.cs">
+      <DependentUpon>Bird Pet Stock Data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bird Pet Stock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bird Pet Stock.Designer.cs">
+      <DependentUpon>Bird Pet Stock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Birds Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Birds Menu.Designer.cs">
+      <DependentUpon>Birds Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Birds_Reports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Birds_Reports.Designer.cs">
+      <DependentUpon>Birds_Reports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bird_Acc_Sale_Data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bird_Acc_Sale_Data.Designer.cs">
+      <DependentUpon>Bird_Acc_Sale_Data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bird_Food_Stock_Data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bird_Food_Stock_Data.Designer.cs">
+      <DependentUpon>Bird_Food_Stock_Data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bird_Pet_Care_Stock_Data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bird_Pet_Care_Stock_Data.Designer.cs">
+      <DependentUpon>Bird_Pet_Care_Stock_Data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cat Acc Sale Data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cat Acc Sale Data.Designer.cs">
+      <DependentUpon>Cat Acc Sale Data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cat Acc Sale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cat Acc Sale.Designer.cs">
+      <DependentUpon>Cat Acc Sale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cat Acc Stock Data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cat Acc Stock Data.Designer.cs">
+      <DependentUpon>Cat Acc Stock Data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cat Accessories Stock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cat Accessories Stock.Designer.cs">
+      <DependentUpon>Cat Accessories Stock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cat Food Sale Data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cat Food Sale Data.Designer.cs">
+      <DependentUpon>Cat Food Sale Data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cat Pet Care Sale Data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cat Pet Care Sale Data.Designer.cs">
+      <DependentUpon>Cat Pet Care Sale Data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cat Pet Care Sale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cat Pet Care Sale.Designer.cs">
+      <DependentUpon>Cat Pet Care Sale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cat Pet Care Stock .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cat Pet Care Stock .Designer.cs">
+      <DependentUpon>Cat Pet Care Stock .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cat Pet Care Stock Data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cat Pet Care Stock Data.Designer.cs">
+      <DependentUpon>Cat Pet Care Stock Data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cat Pet Sale Data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cat Pet Sale Data.Designer.cs">
+      <DependentUpon>Cat Pet Sale Data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cat Pet Stock Data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cat Pet Stock Data.Designer.cs">
+      <DependentUpon>Cat Pet Stock Data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cat Pet Stock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cat Pet Stock.Designer.cs">
+      <DependentUpon>Cat Pet Stock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cats_Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cats_Menu.Designer.cs">
+      <DependentUpon>Cats_Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cats_Reports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cats_Reports.Designer.cs">
+      <DependentUpon>Cats_Reports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cat_Food_Sale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cat_Food_Sale.Designer.cs">
+      <DependentUpon>Cat_Food_Sale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cat_Food_Stock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cat_Food_Stock.Designer.cs">
+      <DependentUpon>Cat_Food_Stock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cat_Food_Stock_Data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cat_Food_Stock_Data.Designer.cs">
+      <DependentUpon>Cat_Food_Stock_Data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cat_Pet_Sale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cat_Pet_Sale.Designer.cs">
+      <DependentUpon>Cat_Pet_Sale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClassUser.cs" />
+    <Compile Include="Dog Acc Sale Data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dog Acc Sale Data.Designer.cs">
+      <DependentUpon>Dog Acc Sale Data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dog Acc Sale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dog Acc Sale.Designer.cs">
+      <DependentUpon>Dog Acc Sale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dog Accessories Stock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dog Accessories Stock.Designer.cs">
+      <DependentUpon>Dog Accessories Stock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dog Food Sale Data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dog Food Sale Data.Designer.cs">
+      <DependentUpon>Dog Food Sale Data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dog Food Sale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dog Food Sale.Designer.cs">
+      <DependentUpon>Dog Food Sale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dog Food Stock Data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dog Food Stock Data.Designer.cs">
+      <DependentUpon>Dog Food Stock Data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dog Food Stock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dog Food Stock.Designer.cs">
+      <DependentUpon>Dog Food Stock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dog Pet Care Sale Data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dog Pet Care Sale Data.Designer.cs">
+      <DependentUpon>Dog Pet Care Sale Data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dog Pet Care Sale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dog Pet Care Sale.Designer.cs">
+      <DependentUpon>Dog Pet Care Sale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dog Pet Care Stock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dog Pet Care Stock.Designer.cs">
+      <DependentUpon>Dog Pet Care Stock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dog Pet Sale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dog Pet Sale.Designer.cs">
+      <DependentUpon>Dog Pet Sale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dog Pet Stock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dog Pet Stock.Designer.cs">
+      <DependentUpon>Dog Pet Stock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dogs Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dogs Menu.Designer.cs">
+      <DependentUpon>Dogs Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dog_Acc_Stock_Data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dog_Acc_Stock_Data.Designer.cs">
+      <DependentUpon>Dog_Acc_Stock_Data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dog_Pet_Care_Data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dog_Pet_Care_Data.Designer.cs">
+      <DependentUpon>Dog_Pet_Care_Data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dog_Pet_Sale_Datacs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dog_Pet_Sale_Datacs.Designer.cs">
+      <DependentUpon>Dog_Pet_Sale_Datacs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dog_Pet_Stock_Table.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dog_Pet_Stock_Table.Designer.cs">
+      <DependentUpon>Dog_Pet_Stock_Table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fish Acc Sale Data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fish Acc Sale Data.Designer.cs">
+      <DependentUpon>Fish Acc Sale Data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fish Acc Sale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fish Acc Sale.Designer.cs">
+      <DependentUpon>Fish Acc Sale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fish Acc Stock Data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fish Acc Stock Data.Designer.cs">
+      <DependentUpon>Fish Acc Stock Data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fish Acc Stock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fish Acc Stock.Designer.cs">
+      <DependentUpon>Fish Acc Stock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fish Food Sale Data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fish Food Sale Data.Designer.cs">
+      <DependentUpon>Fish Food Sale Data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fish Food Sale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fish Food Sale.Designer.cs">
+      <DependentUpon>Fish Food Sale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fish Food Stock Data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fish Food Stock Data.Designer.cs">
+      <DependentUpon>Fish Food Stock Data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fish Food Stock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fish Food Stock.Designer.cs">
+      <DependentUpon>Fish Food Stock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fish Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fish Menu.Designer.cs">
+      <DependentUpon>Fish Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fish Pet Care Sale Data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fish Pet Care Sale Data.Designer.cs">
+      <DependentUpon>Fish Pet Care Sale Data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fish Pet Care Sale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fish Pet Care Sale.Designer.cs">
+      <DependentUpon>Fish Pet Care Sale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fish Pet Care Stock Data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fish Pet Care Stock Data.Designer.cs">
+      <DependentUpon>Fish Pet Care Stock Data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fish Pet Care Stock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fish Pet Care Stock.Designer.cs">
+      <DependentUpon>Fish Pet Care Stock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fish Pet Sale Data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fish Pet Sale Data.Designer.cs">
+      <DependentUpon>Fish Pet Sale Data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fish Pet Sale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fish Pet Sale.Designer.cs">
+      <DependentUpon>Fish Pet Sale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fish Pet Stock Data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fish Pet Stock Data.Designer.cs">
+      <DependentUpon>Fish Pet Stock Data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fish Pet Stock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fish Pet Stock.Designer.cs">
+      <DependentUpon>Fish Pet Stock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fish Reports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fish Reports.Designer.cs">
+      <DependentUpon>Fish Reports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Records_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Records_Login.Designer.cs">
+      <DependentUpon>Records_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports.Designer.cs">
+      <DependentUpon>Reports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports_Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports_Menu.Designer.cs">
+      <DependentUpon>Reports_Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SN Pets Main Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SN Pets Main Menu.Designer.cs">
+      <DependentUpon>SN Pets Main Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="New User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="New User.Designer.cs">
+      <DependentUpon>New User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SN Pets Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SN Pets Login.Designer.cs">
+      <DependentUpon>SN Pets Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SN_PetsDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SN_PetsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SN_PetsDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SN_PetsDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SN_PetsDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SN_PetsDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SN_PetsDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SN_PetsDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SN_PetsDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SN_PetsDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SN_PetsDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SN_PetsDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SN_PetsDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SN_PetsDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SN_PetsDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SN_PetsDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SN_PetsDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SN_PetsDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SN_PetsDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SN_PetsDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SN_PetsDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SN_PetsDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SN_PetsDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SN_PetsDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SN_PetsDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SN_PetsDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SN_PetsDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SN_PetsDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SN_PetsDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SN_PetsDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SN_PetsDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SN_PetsDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SN_Pets_Birds_Pet_Care_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SN_Pets_Birds_Pet_Care_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SN_Pets_Bird_Acc_Sale_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SN_Pets_Bird_Acc_Sale_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SN_Pets_Bird_Acc_Stock_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SN_Pets_Bird_Acc_Stock_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SN_Pets_Bird_Food_Sale_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SN_Pets_Bird_Food_Sale_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SN_Pets_Bird_Food_Stock_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SN_Pets_Bird_Food_Stock_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SN_Pets_Bird_Pet_Care_Sale_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SN_Pets_Bird_Pet_Care_Sale_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SN_Pets_Bird_Pet_Sale_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SN_Pets_Bird_Pet_Sale_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SN_Pets_Bird_Pet_Stock_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SN_Pets_Bird_Pet_Stock_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SN_Pets_Cat_Acc_Sale_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SN_Pets_Cat_Acc_Sale_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SN_Pets_Cat_Acc_Stock_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SN_Pets_Cat_Acc_Stock_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SN_Pets_Cat_Food_Sale_Data_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SN_Pets_Cat_Food_Sale_Data_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SN_Pets_Cat_Pet_Care_Sale_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SN_Pets_Cat_Pet_Care_Sale_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SN_Pets_Cat_Pet_Care_Stock_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SN_Pets_Cat_Pet_Care_Stock_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SN_Pets_Dog_Food_Stock_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SN_Pets_Dog_Food_Stock_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SN_Pets_Dog_Pet_Sale_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SN_Pets_Dog_Pet_Sale_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SN_Pets_Dog_Pet_Stock_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SN_Pets_Dog_Pet_Stock_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SN_Pets_Fish_Acc_Sale_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SN_Pets_Fish_Acc_Sale_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SN_Pets_Fish_Acc_Stock_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SN_Pets_Fish_Acc_Stock_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SN_Pets_Fish_Food_Sale_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SN_Pets_Fish_Food_Sale_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SN_Pets_Fish_Food_Stock_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SN_Pets_Fish_Food_Stock_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SN_Pets_Fish_Pet_Care_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SN_Pets_Fish_Pet_Care_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SN_Pets_Fish_Pet_Care_Sale_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SN_Pets_Fish_Pet_Care_Sale_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SN_Pets_Fish_Pet_Sale_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SN_Pets_Fish_Pet_Sale_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SN_Pets_Fish_Pet_Stock_Data_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SN_Pets_Fish_Pet_Stock_Data_DataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Bird Acc Sale.resx">
+      <DependentUpon>Bird Acc Sale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bird Acc Stock Data.resx">
+      <DependentUpon>Bird Acc Stock Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bird Acc Stock.resx">
+      <DependentUpon>Bird Acc Stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bird Food Sale Data.resx">
+      <DependentUpon>Bird Food Sale Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bird Food Sale.resx">
+      <DependentUpon>Bird Food Sale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bird Food Stock.resx">
+      <DependentUpon>Bird Food Stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bird Pet Care Sale Data.resx">
+      <DependentUpon>Bird Pet Care Sale Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bird Pet Care Sale.resx">
+      <DependentUpon>Bird Pet Care Sale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bird Pet Care.resx">
+      <DependentUpon>Bird Pet Care.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bird Pet Sale Data.resx">
+      <DependentUpon>Bird Pet Sale Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bird Pet Sale.resx">
+      <DependentUpon>Bird Pet Sale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bird Pet Stock Data.resx">
+      <DependentUpon>Bird Pet Stock Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bird Pet Stock.resx">
+      <DependentUpon>Bird Pet Stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Birds Menu.resx">
+      <DependentUpon>Birds Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Birds_Reports.resx">
+      <DependentUpon>Birds_Reports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bird_Acc_Sale_Data.resx">
+      <DependentUpon>Bird_Acc_Sale_Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bird_Food_Stock_Data.resx">
+      <DependentUpon>Bird_Food_Stock_Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bird_Pet_Care_Stock_Data.resx">
+      <DependentUpon>Bird_Pet_Care_Stock_Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cat Acc Sale Data.resx">
+      <DependentUpon>Cat Acc Sale Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cat Acc Sale.resx">
+      <DependentUpon>Cat Acc Sale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cat Acc Stock Data.resx">
+      <DependentUpon>Cat Acc Stock Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cat Accessories Stock.resx">
+      <DependentUpon>Cat Accessories Stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cat Food Sale Data.resx">
+      <DependentUpon>Cat Food Sale Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cat Pet Care Sale Data.resx">
+      <DependentUpon>Cat Pet Care Sale Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cat Pet Care Sale.resx">
+      <DependentUpon>Cat Pet Care Sale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cat Pet Care Stock .resx">
+      <DependentUpon>Cat Pet Care Stock .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cat Pet Care Stock Data.resx">
+      <DependentUpon>Cat Pet Care Stock Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cat Pet Sale Data.resx">
+      <DependentUpon>Cat Pet Sale Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cat Pet Stock Data.resx">
+      <DependentUpon>Cat Pet Stock Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cat Pet Stock.resx">
+      <DependentUpon>Cat Pet Stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cats_Menu.resx">
+      <DependentUpon>Cats_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cats_Reports.resx">
+      <DependentUpon>Cats_Reports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cat_Food_Sale.resx">
+      <DependentUpon>Cat_Food_Sale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cat_Food_Stock.resx">
+      <DependentUpon>Cat_Food_Stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cat_Food_Stock_Data.resx">
+      <DependentUpon>Cat_Food_Stock_Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cat_Pet_Sale.resx">
+      <DependentUpon>Cat_Pet_Sale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dog Acc Sale Data.resx">
+      <DependentUpon>Dog Acc Sale Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dog Acc Sale.resx">
+      <DependentUpon>Dog Acc Sale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dog Accessories Stock.resx">
+      <DependentUpon>Dog Accessories Stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dog Food Sale Data.resx">
+      <DependentUpon>Dog Food Sale Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dog Food Sale.resx">
+      <DependentUpon>Dog Food Sale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dog Food Stock Data.resx">
+      <DependentUpon>Dog Food Stock Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dog Food Stock.resx">
+      <DependentUpon>Dog Food Stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dog Pet Care Sale Data.resx">
+      <DependentUpon>Dog Pet Care Sale Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dog Pet Care Sale.resx">
+      <DependentUpon>Dog Pet Care Sale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dog Pet Care Stock.resx">
+      <DependentUpon>Dog Pet Care Stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dog Pet Sale.resx">
+      <DependentUpon>Dog Pet Sale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dog Pet Stock.resx">
+      <DependentUpon>Dog Pet Stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dogs Menu.resx">
+      <DependentUpon>Dogs Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dog_Acc_Stock_Data.resx">
+      <DependentUpon>Dog_Acc_Stock_Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dog_Pet_Care_Data.resx">
+      <DependentUpon>Dog_Pet_Care_Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dog_Pet_Sale_Datacs.resx">
+      <DependentUpon>Dog_Pet_Sale_Datacs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dog_Pet_Stock_Table.resx">
+      <DependentUpon>Dog_Pet_Stock_Table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fish Acc Sale Data.resx">
+      <DependentUpon>Fish Acc Sale Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fish Acc Sale.resx">
+      <DependentUpon>Fish Acc Sale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fish Acc Stock Data.resx">
+      <DependentUpon>Fish Acc Stock Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fish Acc Stock.resx">
+      <DependentUpon>Fish Acc Stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fish Food Sale Data.resx">
+      <DependentUpon>Fish Food Sale Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fish Food Sale.resx">
+      <DependentUpon>Fish Food Sale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fish Food Stock Data.resx">
+      <DependentUpon>Fish Food Stock Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fish Food Stock.resx">
+      <DependentUpon>Fish Food Stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fish Menu.resx">
+      <DependentUpon>Fish Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fish Pet Care Sale Data.resx">
+      <DependentUpon>Fish Pet Care Sale Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fish Pet Care Sale.resx">
+      <DependentUpon>Fish Pet Care Sale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fish Pet Care Stock Data.resx">
+      <DependentUpon>Fish Pet Care Stock Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fish Pet Care Stock.resx">
+      <DependentUpon>Fish Pet Care Stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fish Pet Sale Data.resx">
+      <DependentUpon>Fish Pet Sale Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fish Pet Sale.resx">
+      <DependentUpon>Fish Pet Sale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fish Pet Stock Data.resx">
+      <DependentUpon>Fish Pet Stock Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fish Pet Stock.resx">
+      <DependentUpon>Fish Pet Stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fish Reports.resx">
+      <DependentUpon>Fish Reports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Records_Login.resx">
+      <DependentUpon>Records_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports.resx">
+      <DependentUpon>Reports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports_Menu.resx">
+      <DependentUpon>Reports_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SN Pets Main Menu.resx">
+      <DependentUpon>SN Pets Main Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New User.resx">
+      <DependentUpon>New User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SN Pets Login.resx">
+      <DependentUpon>SN Pets Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="SN_PetsDataSet.xsc">
+      <DependentUpon>SN_PetsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_PetsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SN_PetsDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SN_PetsDataSet.xss">
+      <DependentUpon>SN_PetsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_PetsDataSet1.xsc">
+      <DependentUpon>SN_PetsDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="SN_PetsDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SN_PetsDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SN_PetsDataSet1.xss">
+      <DependentUpon>SN_PetsDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="SN_PetsDataSet10.xsc">
+      <DependentUpon>SN_PetsDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="SN_PetsDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SN_PetsDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SN_PetsDataSet10.xss">
+      <DependentUpon>SN_PetsDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="SN_PetsDataSet11.xsc">
+      <DependentUpon>SN_PetsDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="SN_PetsDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SN_PetsDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SN_PetsDataSet11.xss">
+      <DependentUpon>SN_PetsDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="SN_PetsDataSet12.xsc">
+      <DependentUpon>SN_PetsDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="SN_PetsDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SN_PetsDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SN_PetsDataSet12.xss">
+      <DependentUpon>SN_PetsDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="SN_PetsDataSet13.xsc">
+      <DependentUpon>SN_PetsDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="SN_PetsDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SN_PetsDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SN_PetsDataSet13.xss">
+      <DependentUpon>SN_PetsDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="SN_PetsDataSet14.xsc">
+      <DependentUpon>SN_PetsDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="SN_PetsDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SN_PetsDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SN_PetsDataSet14.xss">
+      <DependentUpon>SN_PetsDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="SN_PetsDataSet15.xsc">
+      <DependentUpon>SN_PetsDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="SN_PetsDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SN_PetsDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SN_PetsDataSet15.xss">
+      <DependentUpon>SN_PetsDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="SN_PetsDataSet2.xsc">
+      <DependentUpon>SN_PetsDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="SN_PetsDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SN_PetsDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SN_PetsDataSet2.xss">
+      <DependentUpon>SN_PetsDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="SN_PetsDataSet3.xsc">
+      <DependentUpon>SN_PetsDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="SN_PetsDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SN_PetsDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SN_PetsDataSet3.xss">
+      <DependentUpon>SN_PetsDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="SN_PetsDataSet4.xsc">
+      <DependentUpon>SN_PetsDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="SN_PetsDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SN_PetsDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SN_PetsDataSet4.xss">
+      <DependentUpon>SN_PetsDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="SN_PetsDataSet5.xsc">
+      <DependentUpon>SN_PetsDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="SN_PetsDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SN_PetsDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SN_PetsDataSet5.xss">
+      <DependentUpon>SN_PetsDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="SN_PetsDataSet6.xsc">
+      <DependentUpon>SN_PetsDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="SN_PetsDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SN_PetsDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SN_PetsDataSet6.xss">
+      <DependentUpon>SN_PetsDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="SN_PetsDataSet7.xsc">
+      <DependentUpon>SN_PetsDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="SN_PetsDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SN_PetsDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SN_PetsDataSet7.xss">
+      <DependentUpon>SN_PetsDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="SN_PetsDataSet8.xsc">
+      <DependentUpon>SN_PetsDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="SN_PetsDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SN_PetsDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SN_PetsDataSet8.xss">
+      <DependentUpon>SN_PetsDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="SN_PetsDataSet9.xsc">
+      <DependentUpon>SN_PetsDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="SN_PetsDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SN_PetsDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SN_PetsDataSet9.xss">
+      <DependentUpon>SN_PetsDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Birds_Pet_Care_DataSet.xsc">
+      <DependentUpon>SN_Pets_Birds_Pet_Care_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Birds_Pet_Care_DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SN_Pets_Birds_Pet_Care_DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SN_Pets_Birds_Pet_Care_DataSet.xss">
+      <DependentUpon>SN_Pets_Birds_Pet_Care_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Bird_Acc_Sale_DataSet.xsc">
+      <DependentUpon>SN_Pets_Bird_Acc_Sale_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Bird_Acc_Sale_DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SN_Pets_Bird_Acc_Sale_DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SN_Pets_Bird_Acc_Sale_DataSet.xss">
+      <DependentUpon>SN_Pets_Bird_Acc_Sale_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Bird_Acc_Stock_DataSet.xsc">
+      <DependentUpon>SN_Pets_Bird_Acc_Stock_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Bird_Acc_Stock_DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SN_Pets_Bird_Acc_Stock_DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SN_Pets_Bird_Acc_Stock_DataSet.xss">
+      <DependentUpon>SN_Pets_Bird_Acc_Stock_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Bird_Food_Sale_DataSet.xsc">
+      <DependentUpon>SN_Pets_Bird_Food_Sale_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Bird_Food_Sale_DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SN_Pets_Bird_Food_Sale_DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SN_Pets_Bird_Food_Sale_DataSet.xss">
+      <DependentUpon>SN_Pets_Bird_Food_Sale_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Bird_Food_Stock_DataSet.xsc">
+      <DependentUpon>SN_Pets_Bird_Food_Stock_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Bird_Food_Stock_DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SN_Pets_Bird_Food_Stock_DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SN_Pets_Bird_Food_Stock_DataSet.xss">
+      <DependentUpon>SN_Pets_Bird_Food_Stock_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Bird_Pet_Care_Sale_DataSet.xsc">
+      <DependentUpon>SN_Pets_Bird_Pet_Care_Sale_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Bird_Pet_Care_Sale_DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SN_Pets_Bird_Pet_Care_Sale_DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SN_Pets_Bird_Pet_Care_Sale_DataSet.xss">
+      <DependentUpon>SN_Pets_Bird_Pet_Care_Sale_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Bird_Pet_Sale_DataSet.xsc">
+      <DependentUpon>SN_Pets_Bird_Pet_Sale_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Bird_Pet_Sale_DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SN_Pets_Bird_Pet_Sale_DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SN_Pets_Bird_Pet_Sale_DataSet.xss">
+      <DependentUpon>SN_Pets_Bird_Pet_Sale_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Bird_Pet_Stock_DataSet.xsc">
+      <DependentUpon>SN_Pets_Bird_Pet_Stock_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Bird_Pet_Stock_DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SN_Pets_Bird_Pet_Stock_DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SN_Pets_Bird_Pet_Stock_DataSet.xss">
+      <DependentUpon>SN_Pets_Bird_Pet_Stock_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Cat_Acc_Sale_DataSet.xsc">
+      <DependentUpon>SN_Pets_Cat_Acc_Sale_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Cat_Acc_Sale_DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SN_Pets_Cat_Acc_Sale_DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SN_Pets_Cat_Acc_Sale_DataSet.xss">
+      <DependentUpon>SN_Pets_Cat_Acc_Sale_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Cat_Acc_Stock_DataSet.xsc">
+      <DependentUpon>SN_Pets_Cat_Acc_Stock_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Cat_Acc_Stock_DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SN_Pets_Cat_Acc_Stock_DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SN_Pets_Cat_Acc_Stock_DataSet.xss">
+      <DependentUpon>SN_Pets_Cat_Acc_Stock_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Cat_Food_Sale_Data_DataSet.xsc">
+      <DependentUpon>SN_Pets_Cat_Food_Sale_Data_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Cat_Food_Sale_Data_DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SN_Pets_Cat_Food_Sale_Data_DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SN_Pets_Cat_Food_Sale_Data_DataSet.xss">
+      <DependentUpon>SN_Pets_Cat_Food_Sale_Data_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Cat_Pet_Care_Sale_DataSet.xsc">
+      <DependentUpon>SN_Pets_Cat_Pet_Care_Sale_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Cat_Pet_Care_Sale_DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SN_Pets_Cat_Pet_Care_Sale_DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SN_Pets_Cat_Pet_Care_Sale_DataSet.xss">
+      <DependentUpon>SN_Pets_Cat_Pet_Care_Sale_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Cat_Pet_Care_Stock_DataSet.xsc">
+      <DependentUpon>SN_Pets_Cat_Pet_Care_Stock_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Cat_Pet_Care_Stock_DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SN_Pets_Cat_Pet_Care_Stock_DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SN_Pets_Cat_Pet_Care_Stock_DataSet.xss">
+      <DependentUpon>SN_Pets_Cat_Pet_Care_Stock_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Dog_Food_Stock_DataSet.xsc">
+      <DependentUpon>SN_Pets_Dog_Food_Stock_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Dog_Food_Stock_DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SN_Pets_Dog_Food_Stock_DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SN_Pets_Dog_Food_Stock_DataSet.xss">
+      <DependentUpon>SN_Pets_Dog_Food_Stock_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Dog_Pet_Sale_DataSet.xsc">
+      <DependentUpon>SN_Pets_Dog_Pet_Sale_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Dog_Pet_Sale_DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SN_Pets_Dog_Pet_Sale_DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SN_Pets_Dog_Pet_Sale_DataSet.xss">
+      <DependentUpon>SN_Pets_Dog_Pet_Sale_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Dog_Pet_Stock_DataSet.xsc">
+      <DependentUpon>SN_Pets_Dog_Pet_Stock_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Dog_Pet_Stock_DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SN_Pets_Dog_Pet_Stock_DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SN_Pets_Dog_Pet_Stock_DataSet.xss">
+      <DependentUpon>SN_Pets_Dog_Pet_Stock_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Fish_Acc_Sale_DataSet.xsc">
+      <DependentUpon>SN_Pets_Fish_Acc_Sale_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Fish_Acc_Sale_DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SN_Pets_Fish_Acc_Sale_DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SN_Pets_Fish_Acc_Sale_DataSet.xss">
+      <DependentUpon>SN_Pets_Fish_Acc_Sale_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Fish_Acc_Stock_DataSet.xsc">
+      <DependentUpon>SN_Pets_Fish_Acc_Stock_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Fish_Acc_Stock_DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SN_Pets_Fish_Acc_Stock_DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SN_Pets_Fish_Acc_Stock_DataSet.xss">
+      <DependentUpon>SN_Pets_Fish_Acc_Stock_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Fish_Food_Sale_DataSet.xsc">
+      <DependentUpon>SN_Pets_Fish_Food_Sale_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Fish_Food_Sale_DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SN_Pets_Fish_Food_Sale_DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SN_Pets_Fish_Food_Sale_DataSet.xss">
+      <DependentUpon>SN_Pets_Fish_Food_Sale_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Fish_Food_Stock_DataSet.xsc">
+      <DependentUpon>SN_Pets_Fish_Food_Stock_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Fish_Food_Stock_DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SN_Pets_Fish_Food_Stock_DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SN_Pets_Fish_Food_Stock_DataSet.xss">
+      <DependentUpon>SN_Pets_Fish_Food_Stock_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Fish_Pet_Care_DataSet.xsc">
+      <DependentUpon>SN_Pets_Fish_Pet_Care_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Fish_Pet_Care_DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SN_Pets_Fish_Pet_Care_DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SN_Pets_Fish_Pet_Care_DataSet.xss">
+      <DependentUpon>SN_Pets_Fish_Pet_Care_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Fish_Pet_Care_Sale_DataSet.xsc">
+      <DependentUpon>SN_Pets_Fish_Pet_Care_Sale_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Fish_Pet_Care_Sale_DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SN_Pets_Fish_Pet_Care_Sale_DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SN_Pets_Fish_Pet_Care_Sale_DataSet.xss">
+      <DependentUpon>SN_Pets_Fish_Pet_Care_Sale_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Fish_Pet_Sale_DataSet.xsc">
+      <DependentUpon>SN_Pets_Fish_Pet_Sale_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Fish_Pet_Sale_DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SN_Pets_Fish_Pet_Sale_DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SN_Pets_Fish_Pet_Sale_DataSet.xss">
+      <DependentUpon>SN_Pets_Fish_Pet_Sale_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Fish_Pet_Stock_Data_DataSet.xsc">
+      <DependentUpon>SN_Pets_Fish_Pet_Stock_Data_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SN_Pets_Fish_Pet_Stock_Data_DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SN_Pets_Fish_Pet_Stock_Data_DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SN_Pets_Fish_Pet_Stock_Data_DataSet.xss">
+      <DependentUpon>SN_Pets_Fish_Pet_Stock_Data_DataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

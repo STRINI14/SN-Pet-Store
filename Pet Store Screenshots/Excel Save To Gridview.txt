@@ -1,0 +1,25 @@
+ Microsoft.Office.Interop.Excel.Application xla = new Microsoft.Office.Interop.Excel.Application();
+            Workbook wb = xla.Workbooks.Add(XlSheetType.xlWorksheet);
+            Worksheet ws = (Worksheet)xla.ActiveSheet;
+            int row = 0;
+           
+            row = Worksheet.Count - 2;
+
+            
+
+
+            xla.Visible = true;
+
+            ws.Cells[1, 1] = "Date";
+            ws.Cells[1, 2] = "Time";
+            ws.Cells[1, 3] = "Enter Vessel Name:";
+            ws.Cells[1, 4] = "Choose Fitment:";
+            ws.Cells[1, 5] = "You Have Selected:";
+            ws.Cells[1, 6] = "Quantity:";
+
+            ws.Cells[2, 1] = dateTimePicker1.Text;
+            ws.Cells[2, 2] = dateTimePicker2.Text;
+            ws.Cells[2, 3] = txtVesselName.Text;
+            ws.Cells[2, 4] = cboFitments.Text;
+            ws.Cells[2, 5] = lblSelected.Text;
+            ws.Cells[2, 6] = txtQuantity.Text;

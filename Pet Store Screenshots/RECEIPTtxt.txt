@@ -1,0 +1,15 @@
+txtDogFoodSaleReceipt.Clear();
+            txtDogFoodSaleReceipt.Text += "********************************************\n";
+            txtDogFoodSaleReceipt.Text += "****               SN Pets              ****\n";
+            txtDogFoodSaleReceipt.Text += "********************************************\n";
+            txtDogFoodSaleReceipt.Text += "Date :" + DateTime.Now + "\n\n";
+
+            txtDogFoodSaleReceipt.Text += "Item: " + cboDogFoodSaleItems.Text + "\n\n";
+            txtDogFoodSaleReceipt.Text += "Price: " + txtDogFoodSalePrice.Text + "\n\n";
+            txtDogFoodSaleReceipt.Text += "Quantity: " + txtDogFoodSaleQuantity.Text + "\n\n";
+            txtDogFoodSaleReceipt.Text += "Total: " + txtDogFoodSaleTotal.Text + "\n\n";
+            txtDogFoodSaleReceipt.Text += "Discount: " + txtDogFoodSaleDiscount.Text + "\n\n";
+            txtDogFoodSaleReceipt.Text += "Amount Due: " + txtDogFoodSaleAmountDue.Text + "\n\n";
+            txtDogFoodSaleReceipt.Text += "Amount Paid: " + txtDogFoodSaleAmountPaid.Text + "\n\n";
+            txtDogFoodSaleReceipt.Text += "Change Due: " + txtDogFoodSaleChangeDue.Text + "\n\n";
+            txtDogFoodSaleReceipt.Text += "Signature: ________________________\n";

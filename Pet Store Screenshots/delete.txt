@@ -1,0 +1,15 @@
+ SqlCommand cmd = con.CreateCommand();
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "delete from [Job_Numbers] where Job_Number = '" + txtJobNumber.Text + "'";
+            cmd.ExecuteNonQuery();
+            con.Close();
+            
+            
+            
+            
+            cboShiftFitments.Text = "";
+            txtJobNumber.Text = "";
+            txtSerialNumber.Text = "";
+            txtVBUNumber.Text = "";
+            txtFittersNames.Text = "";
+            MessageBox.Show("Data Has Been Deleted Successfully.");
