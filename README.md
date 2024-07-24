@@ -2,7 +2,7 @@ Welcome to SN Pets. Your number one pet store. The SN Pets application works sim
 An authentication system prevents unauthorized users from accessing the application. The inventory management system affords users the opportunity to input accessories pertaining to each type of pet into the SQL database. When an item is purchased from the store the point of sale system calculates the change automatically by subtracting the final amount value from the amount paid by the customer.
 Two types of data are entered into the SQL database: stock items to be sold and items purchased by the customer. The Reports page can only be accessed by a superuser and displays stock and sale information pertaining to each pet and product sold respectively.
 
-The biggest challenge that I faced when I created this project was creating the point of sale system calculations, but by doing extensive research and putting different bits of code together I was able to overcome this obstacle. This project was created using C#, SQL Server and Microsoft Visual Studio.
+The biggest challenge that I faced when I created this project was creating the point of sale system calculations, but by doing extensive research and putting different pieces of code together I was able to overcome this obstacle. This project was created using C#, SQL Server and Microsoft Visual Studio.
 
 Below is a graphical representation of the project:
 
