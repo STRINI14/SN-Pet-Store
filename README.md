@@ -10,7 +10,7 @@ Below is a graphical representation of the project:
 ![Screenshot 2024-07-23 195727](https://github.com/user-attachments/assets/0f464a3d-ad26-4024-b1c3-cff747899279)
 
 
-![image](https://github.com/user-attachments/assets/0933b921-2020-40fb-91c2-e25152dd771b)
+![Screenshot 2024-07-24 232159](https://github.com/user-attachments/assets/07acf20c-cae9-4250-ab1e-e4fb0328dff4)
 
 
 ![Screenshot 2024-07-24 232348](https://github.com/user-attachments/assets/4805e44d-65d8-4eec-a906-4c602b43cd75)
